@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	background-color: #000000;
+}
+nav{
+  background-color: #00198E ;
+  color: $primary-color-text;
+  height: 100px;
+  display: flex;
+  align-items: center;
+   h1{
+    margin: $zero;
+    color:$primary-color-text;
+    font-size: 3rem;
+    text-shadow: 1px 2px 6px #000;
+  }
+}
+
+.portada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-attachment: fixed;
+  background: url("http://gameshopgosport.co.uk/wp-content/uploads/2017/02/GameShop_Logo-1.jpg");
+  border: 5px solid white;
+  
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	height: 10%;
+	width: 100%;
+	background-color: #4828FF;
+}
