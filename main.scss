@@ -1,22 +1,25 @@
-body{
-	margin: 0;
+@import "estilosgenerales";
+$font-principal:font-family: 'Russo One', sans-serif;
+
+body
 	background-color: #000000;
-}
-nav{
-  background-color: #00198E ;
-  color: $primary-color-text;
+
+nav
+  background-color:   #0c1a1e;
+  color: #FFFFFF;
   height: 100px;
   display: flex;
   align-items: center;
-   h1{
-    margin: $zero;
-    color:$primary-color-text;
+  padding: 0px;
+  margin: 0px;
+   nav > h1{
+    color:#FFFFFF;
     font-size: 3rem;
     text-shadow: 1px 2px 6px #000;
-  }
-}
+  
 
-.portada{
+
+.portada
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,18 +27,17 @@ nav{
   background-attachment: fixed;
   background: url("http://gameshopgosport.co.uk/wp-content/uploads/2017/02/GameShop_Logo-1.jpg");
   background-size: 100%;
-  border: 5px solid white;
   
-}
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-footer { background-color:#0c1a1e; 
+footer  background-color:#0c1a1e; 
   min-height:350px;
   font-family: 'Open Sans',
   sans-serif;
-     }
-.footerleft {
+     
+.footerleft 
  margin-top:50px; 
  padding:0 36px; 
 }
@@ -86,3 +88,51 @@ footer { background-color:#0c1a1e;
  .bottom_ul li { float:left; line-height:40px;}
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
  .bottom_ul li a { color:#FFF;  font-size:12px;}
+
+
+ //Contenido
+
+ .portada-smiths {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://www.rockandpop.cl/wp-content/uploads/2018/02/sip-the-smiths-01.jpg");
+  height: 60vh;
+  background-position-y: calc(18%);
+  background-position-x: calc(44%); }
+  .portada-smiths h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 1px 2px 6px #000; }
+
+img {
+  height: 200px;
+  width: 200px; }
+
+.band-box {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  margin-top: 100px; 
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  }
+  .band-box a > p{
+  text-decoration: none;
+  text-shadow: 1px 2px 5px #000; }
+
+
+.box-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+   }
+
+
+
+  //Parte dos contenido
+
+ 
